@@ -1,0 +1,23 @@
+{
+  "name": "notes-taking-api",
+  "version": "1.0.0",
+  "description": "Notes Taking Application API Built using NodeJS, ExpressJS and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "author": "Ajay Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5"
+  }
+}
